@@ -681,6 +681,7 @@
 			}
 
 		}
+		
 
 /* List */
 
@@ -1592,3 +1593,12 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+		
+		img {
+  opacity: 1;
+  transition: opacity 0.6s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
